@@ -13,4 +13,6 @@ mteb
 ipykernel
 langchain_google_genai
 langchain_openai
-nltk====3.9.4
+nltk==3.9.4
+pyyaml
+python-dotenv
