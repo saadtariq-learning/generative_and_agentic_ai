@@ -21,3 +21,4 @@ langchain_ollama==1.1.0
 nltk==3.9.4
 pyyaml
 python-dotenv
+streamlit
