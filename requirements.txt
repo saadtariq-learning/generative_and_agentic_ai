@@ -23,3 +23,8 @@ pyyaml
 python-dotenv
 streamlit
 fsspec==2026.6.0
+pymupdf
+accelerate
+peft
+bitsandbytes
+sentencepiece
