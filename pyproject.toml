@@ -5,7 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "accelerate>=1.14.0",
+    "bitsandbytes>=0.46.1",
     "datasets>=2.19.0",
+    "fsspec==2026.6.0",
     "gensim==4.3.2",
     "ipykernel>=7.2.0",
     "langchain-anthropic==1.4.8",
@@ -18,15 +21,19 @@ dependencies = [
     "mteb>=1.12.5",
     "nltk==3.9.4",
     "numpy==1.26.4",
+    "peft>=0.20.0",
     "pillow>=10.2.0",
+    "pymupdf>=1.28.0",
     "python-dotenv>=1.2.2",
     "pyyaml>=6.0.3",
     "rank-bm25==0.2.2",
     "scikit-learn==1.4.2",
     "scipy==1.11.3",
     "sentence-transformers==2.7.0",
+    "sentencepiece>=0.2.2",
     "streamlit>=1.59.2",
     "torch>=2.4.0",
+    "torchao>=0.16.0",
     "torchvision>=0.19.0",
     "transformers>=4.41.0",
 ]
