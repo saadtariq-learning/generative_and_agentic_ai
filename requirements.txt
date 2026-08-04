@@ -29,3 +29,4 @@ peft
 bitsandbytes>=0.46.1
 sentencepiece
 torchao>=0.16.0
+trl>=0.16.0
