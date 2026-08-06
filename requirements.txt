@@ -7,7 +7,7 @@ gensim==4.3.2
 torch>=2.4.0
 torchvision>=0.19.0
 transformers>=4.41.0
-datasets>=2.19.0
+datasets>=4.5.0
 pillow>=10.2.0
 mteb
 ipykernel
@@ -30,3 +30,4 @@ bitsandbytes>=0.46.1
 sentencepiece
 torchao>=0.16.0
 trl>=0.16.0
+unsloth
