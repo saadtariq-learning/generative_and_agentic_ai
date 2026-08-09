@@ -835,6 +835,7 @@ dependencies = [
     { name = "transformers" },
     { name = "trl" },
     { name = "unsloth" },
+    { name = "unsloth-zoo" },
 ]
 
 [package.metadata]
@@ -872,6 +873,7 @@ requires-dist = [
     { name = "transformers", specifier = ">=4.41.0" },
     { name = "trl", specifier = ">=0.16.0" },
     { name = "unsloth", specifier = ">=2025.11.1" },
+    { name = "unsloth-zoo", specifier = ">=2025.11.2" },
 ]
 
 [[package]]
