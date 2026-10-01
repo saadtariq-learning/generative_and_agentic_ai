@@ -42,3 +42,7 @@ jq
 unstructured
 docx2txt
 markdown
+pdfplumber
+pytesseract
+tabulate
+docling
