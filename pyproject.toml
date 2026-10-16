@@ -26,6 +26,7 @@ dependencies = [
     "langchain-openai==1.3.5",
     "langchain-openrouter==0.2.6",
     "langchain-text-splitters==1.1.3",
+    "llama-cloud==2.18.0",
     "markdown>=3.11",
     "mteb>=1.12.5",
     "nltk==3.9.4",

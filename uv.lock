@@ -1215,6 +1215,7 @@ dependencies = [
     { name = "langchain-openai" },
     { name = "langchain-openrouter" },
     { name = "langchain-text-splitters" },
+    { name = "llama-cloud" },
     { name = "markdown" },
     { name = "mteb" },
     { name = "nltk" },
@@ -1270,6 +1271,7 @@ requires-dist = [
     { name = "langchain-openai", specifier = "==1.3.5" },
     { name = "langchain-openrouter", specifier = "==0.2.6" },
     { name = "langchain-text-splitters", specifier = "==1.1.3" },
+    { name = "llama-cloud", specifier = "==2.18.0" },
     { name = "markdown", specifier = ">=3.11" },
     { name = "mteb", specifier = ">=1.12.5" },
     { name = "nltk", specifier = "==3.9.4" },
@@ -2265,6 +2267,23 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/88/db/336c38300e44582752b95842b15a4be8fe656914cf5b02ad1bec53cebceb/latex2mathml-3.81.1.tar.gz", hash = "sha256:c95add0c0fcdecad2d70567e0643050d5ea1149fb2e98a5d5792fb1c8eea2ed5", size = 77475, upload-time = "2026-09-07T19:55:11.037Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/07/30/b8bcfb01a2514cb7554a048ed52883de276e66d757c3cc535a3c29eb9e98/latex2mathml-3.81.1-py3-none-any.whl", hash = "sha256:c337668441b71c819b6733905a8058ba9a9d767bae11a0c5fdacb3aff31361bd", size = 79159, upload-time = "2026-09-07T19:55:09.611Z" },
+]
+
+[[package]]
+name = "llama-cloud"
+version = "2.18.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "anyio" },
+    { name = "distro" },
+    { name = "httpx" },
+    { name = "pydantic" },
+    { name = "sniffio" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/fa/22/2da1a4c4888e7151b46d07af7b4540dfbfd2c08049050b9d03f579372b08/llama_cloud-2.18.0.tar.gz", hash = "sha256:0925984a3ddc672422b173a6b8a14c557b1abb8fa51d5279eb623de24388000d", size = 3617209, upload-time = "2026-10-09T20:45:30.205Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/93/c0/bb4be366a01828e451fa3989a377e4628474a94b52b16d8d50e531cad31e/llama_cloud-2.18.0-py3-none-any.whl", hash = "sha256:f221a5eff2e48762c692b5a596e20f6a96574abee80ecd74d46fe22fc9d5b76d", size = 552135, upload-time = "2026-10-09T20:45:28.621Z" },
 ]
 
 [[package]]

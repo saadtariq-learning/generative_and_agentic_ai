@@ -48,3 +48,4 @@ pdfplumber
 pytesseract
 tabulate
 docling
+llama-cloud==2.18.0
