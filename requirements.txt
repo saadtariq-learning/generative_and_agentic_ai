@@ -23,7 +23,9 @@ langchain-openrouter==0.2.6
 langchain-anthropic==1.4.8
 langchain_ollama==1.1.0
 langchain-chroma==1.1.0
+langchain-pinecone==0.2.13
 faiss-cpu==1.15.1
+pinecone==10.0.0
 nltk==3.9.4
 pyyaml
 python-dotenv
