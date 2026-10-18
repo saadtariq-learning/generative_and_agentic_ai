@@ -43,6 +43,7 @@ trl>=0.16.0
 pypdf==6.18.0
 python-docx==1.2.0
 pandas==3.0.5
+matplotlib==3.11.2
 openpyxl==3.1.5
 beautifulsoup4==4.15.0
 unsloth

@@ -32,6 +32,7 @@ dependencies = [
     "langchain-text-splitters==1.1.3",
     "llama-cloud==2.18.0",
     "markdown>=3.11",
+    "matplotlib==3.11.2",
     "mteb>=1.12.5",
     "nltk==3.9.4",
     "numpy==2.5.3",
